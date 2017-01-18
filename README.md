@@ -5,14 +5,18 @@ A Node.js Paginator for collections based on Laravel Illuminate LengthAwarePagin
 ## Usage
 
 First, install the package using npm:
+
 ```bash
 npm install length-aware-paginator --save
 ```
+
 Then, require the package and use it like so:
-```ecmascript 6
+
+```js
 let LengthAwarePaginator = require('length-aware-paginator')
 let Paginator = new LengthAwarePaginator(collection)
 ```    
+
 Refer to the file `example.js` for more usage examples
 
 ## License
