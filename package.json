@@ -1,6 +1,6 @@
 {
   "name": "length-aware-paginator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Paginator for collections based on Laravel Illuminate LengthAwarePaginator class",
   "main": "main.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitbut.com/brunowerneck/length-aware-paginator.git"
+    "url": "https://github.com/brunowerneck/length-aware-paginator.git"
   },
   "keywords": [
     "Paginator",
@@ -19,9 +19,9 @@
   "author": "Bruno Vaula Werneck <brunovaulawerneck@gmail.com>",
   "license": "(MIT)",
   "bugs": {
-    "url": "https://gitbut.com/brunowerneck/length-aware-paginator/issues"
+    "url": "https://github.com/brunowerneck/length-aware-paginator/issues"
   },
-  "homepage": "https://gitbut.com/brunowerneck/length-aware-paginator",
+  "homepage": "https://github.com/brunowerneck/length-aware-paginator",
   "devDependencies": {
     "lodash": "^4.17.4"
   }
