@@ -22,3 +22,9 @@ for (let i = 1; i <= Paginator.lastPage(); i++) {
     console.info("Items: ", Paginator.items())
     Paginator.navigate(i + 1);
 }
+
+Paginator.searchString = "28"
+
+console.log("\nSearchString", Paginator.searchString)
+console.log("SearchResults", Paginator.searchResults())
+

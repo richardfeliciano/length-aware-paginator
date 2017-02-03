@@ -1,6 +1,4 @@
-let _ = require("lodash")
-
-class User {
+class LengthAwarePaginator {
 
     /**
      * Length Aware Paginator Constructor
@@ -103,7 +101,7 @@ class User {
      * @param item
      */
     removeItem(item) {
-        this.data = _.filter(this.data, i => i.id !== item.id)
+        this.data = this.data.filter(i => i.id !== item.id)
     }
 
     /**
@@ -112,7 +110,7 @@ class User {
      * @returns {Array}
      */
     searchResults() {
-        return _.filter(this.data, (item) => item[this.searchIndex].toLowerCase().indexOf(
+        return this.data.filter( (item) => item[this.searchIndex].toLowerCase().indexOf(
             this.searchString.trim().toLowerCase()) >= 0)
     }
 
@@ -196,5 +194,5 @@ class User {
 
 }
 
-module.exports = User
+module.exports = LengthAwarePaginator
 
