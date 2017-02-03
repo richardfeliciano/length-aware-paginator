@@ -1,5 +1,8 @@
 # length-aware-paginator
 
+[![npm version](https://badge.fury.io/js/length-aware-paginator.svg)](https://badge.fury.io/js/length-aware-paginator)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/brunowerneck/length-aware-paginator/blob/master/README.md)
+
 A Node.js Paginator for collections based on Laravel Illuminate LengthAwarePaginator class.
 
 ## Usage
@@ -17,7 +20,7 @@ let LengthAwarePaginator = require('length-aware-paginator')
 let Paginator = new LengthAwarePaginator(collection)
 ```    
 
-Refer to the file `example.js` for more usage examples
+Refer to the file `src/js/example.js` for more usage examples, or run `node example.js` in the root folder for a demonstration.
 
 ## License
 

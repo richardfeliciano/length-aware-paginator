@@ -13,6 +13,14 @@ gulp.task("build", function () {
         .pipe(gulp.dest("./"));
 });
 
+gulp.task("example", function () {
+    return browserify({entries: "./src/js/example.js", debug: true})
+        .transform("babelify", {presets: ["es2015"]})
+        .bundle()
+        .pipe(source("example.js"))
+        .pipe(gulp.dest("./"));
+});
+
 gulp.task("watch", ["build"], function () {
     gulp.watch("./src/js/*.js", ["build"]);
 });
