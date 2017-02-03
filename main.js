@@ -1,6 +1,6 @@
 let _ = require("lodash")
 
-module.exports = class {
+class User {
 
     /**
      * Length Aware Paginator Constructor
@@ -26,14 +26,14 @@ module.exports = class {
      *
      * @param data Collection to iterate
      */
-    setData(data){
+    setData(data) {
         this.data = data
     }
 
     /**
      * Return the total number of records in the collection
      *
-     * @returns integer Total number of records
+     * @returns {int} Total number of records
      */
     total() {
         return this.data ? this.data.length : 0
@@ -195,4 +195,6 @@ module.exports = class {
     }
 
 }
+
+module.exports = User
 

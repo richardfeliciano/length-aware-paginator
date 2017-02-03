@@ -1,6 +1,6 @@
 {
   "name": "length-aware-paginator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Paginator for collections based on Laravel Illuminate LengthAwarePaginator class",
   "main": "main.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "url": "https://github.com/brunowerneck/length-aware-paginator/issues"
   },
   "homepage": "https://github.com/brunowerneck/length-aware-paginator",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "lodash": "^4.17.4"
   }
 }
