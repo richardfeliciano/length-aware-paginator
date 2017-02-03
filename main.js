@@ -1,5 +1,4 @@
-class LengthAwarePaginator {
-
+module.exports = class LengthAwarePaginator {
     /**
      * Length Aware Paginator Constructor
      *
@@ -191,8 +190,4 @@ class LengthAwarePaginator {
         this.perPage = perPage
         if (this.to() >= this.total()) this.navigate("last")
     }
-
 }
-
-module.exports = LengthAwarePaginator
-
