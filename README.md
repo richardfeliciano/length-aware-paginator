@@ -16,12 +16,12 @@ npm install length-aware-paginator --save
 Then, require the package and use it like so:
 
 ```js
-import LengthAwarePaginator from 'length-aware-paginator/src/js/main'
+import LengthAwarePaginator from 'length-aware-paginator'
 
 let Paginator = new LengthAwarePaginator(collection)
 ```    
 
-Refer to the file `src/js/example.js` for more usage examples, or run `node example.js` in the root folder for a demonstration.
+Refer to the file `src/js/example.js` for more usage examples, or run `npm run test` in the root folder for a demonstration.
 
 ## License
 

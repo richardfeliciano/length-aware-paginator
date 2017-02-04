@@ -2,7 +2,7 @@
   "name": "length-aware-paginator",
   "version": "1.0.2",
   "description": "Paginator for collections based on Laravel Illuminate LengthAwarePaginator class",
-  "main": "./src/js/main.js",
+  "main": "./main.js",
   "scripts": {
     "test": "node example.js"
   },

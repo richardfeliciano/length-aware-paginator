@@ -1,4 +1,4 @@
-export default class {
+class LengthAwarePaginator {
     /**
      * Length Aware Paginator Constructor
      *
@@ -191,3 +191,5 @@ export default class {
         if (this.to() >= this.total()) this.navigate("last")
     }
 }
+
+module.exports = LengthAwarePaginator
